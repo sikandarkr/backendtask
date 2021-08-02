@@ -1,0 +1,25 @@
+{
+  "name": "simplepayment",
+  "version": "1.0.0",
+  "description": "simple payment application demo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "install": "^0.12.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "node-pre-gyp": "^0.13.0",
+    "nodemon": "^1.19.1",
+    "path": "^0.12.7"
+  }
+}
