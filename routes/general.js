@@ -17,7 +17,5 @@ router.post('/save/:id', async function (req, res) {
     res.status(200).json(JSON.parse(data));
 });
 
-router.get('/save/:id', (req, res, next) => {
-    return res.json({ "example": "example....." });
-});
+
 module.exports = router;
